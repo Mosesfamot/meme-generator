@@ -42,3 +42,32 @@ body {
   font-weight: 500;
 }
 
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 36px;
+}
+
+.form-fields {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form-fields input {
+  padding: 0.4rem 2.5rem 0.4rem 0.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid #d5d4d8;
+  text-indent: 5px;
+}
+
+.form-button {
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: #fff;
+  grid-column: 1 / -1;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  border: none;
+}
+
